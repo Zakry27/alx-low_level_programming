@@ -52,9 +52,9 @@ void close_file(int fd)
  * Return: 0 on success.
  *
  * Description: If the argument count is incorrect - the exit code is 97.
- *              If file_from does not exist or cannot be read - the exit code is 98.
- *              If file_to cannot be created or cannot be written to - the exit code is 99.
- *              If file_to or file_from cannot be closed - the exit code is 100.
+ *              If file_from doesn't exist / cannot be read - exit code is 98.
+ *              If file_to can't be created / be written to - exit code is 99.
+ *              If file_to / file_from can't be closed - exit code is 100.
  */
 int main(int argc, char *argv[])
 {
