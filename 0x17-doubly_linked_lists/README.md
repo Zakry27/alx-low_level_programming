@@ -1,4 +1,4 @@
-0x17. C - Doubly linked lists tasks
+0x17. C - Doubly linked lists tasks updated
 
 0. Print list
 
